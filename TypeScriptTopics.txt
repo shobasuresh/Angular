@@ -1,0 +1,27 @@
+ Benefits of TypeScript
+•
+Basic Data Types
+•
+Arrays, Tuples, Enum, Any and void
+•
+null and undefined
+•
+Type Inference
+•
+Type Casting
+•
+Let and var
+•
+Const declaration
+•
+Classes & Constructor method
+•
+Inheritance & Abstract class
+•
+Type Casting
+•
+Type Assertion
+•
+Interface Declaration and Initialization
+•
+Generic Functions
