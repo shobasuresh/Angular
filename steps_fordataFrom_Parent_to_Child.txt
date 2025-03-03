@@ -1,0 +1,28 @@
+Parent to Child Component (Using @Input)
+
+If you have a parent component that needs to pass data to a child component, you can use the @Input decorator.
+
+
+
+In Child
+
+ use the @Input() decorator in a child component class, first import Input and then decorate the property with @Input().
+
+Next, in the child component template, add the following:
+<p>
+From Parent {{item}}
+</p>
+
+In Parent 
+
+src/app/app.component.html
+ 
+<app-item-detail [item]="currentItem"></app-item-detail>
+
+  app.component.ts, designate a value for currentItem:
+
+src/app/app.component.ts
+ 
+export class AppComponent {
+  currentItem = 'Television';
+
