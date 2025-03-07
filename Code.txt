@@ -87,3 +87,46 @@ this.router.navigate(['/home/update-employee',id])
 
 }
 
+
+*****************
+
+EmployeeService
+
+import { Injectable } from '@angular/core';
+//import { HttpBackend, HttpClient } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Employee } from './employee';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class EmployeeService {
+
+  private baseUrl="http://localhost:8080";
+
+  constructor(private http: HttpClient) { }
+
+ public  getEmployees():Observable<Employee[]>
+  {
+    return this.http.get<Employee[]>(`${this.baseUrl}/employees`);
+  }
+
+
+  getEmployeeById(id:number):Observable<Employee>
+  {
+ console.log("id in service "+id)
+  return this.http.get<Employee>(`${this.baseUrl}/employee/${id}`)
+   
+  }
+
+
+  updateEmployee(id:number,employee:Employee):Observable<Employee>
+  {
+ 
+   return this.http.put<Employee>(`${this.baseUrl}/employee/${id}`,employee)
+  }
+ 
+}
+
+
