@@ -1,0 +1,133 @@
+Single Page Applications
+•
+Characteristics of SPA
+•
+Angular Environment and IDEs
+•
+Installing Angular CLI
+•
+Directory structure
+•
+Bootstrapping Angular Application
+•
+AppModule and Component Declaration
+•
+Angular CLI commands
+•
+Bootstrap and styling your application
+•
+Decorators in Angular
+8
+3
+Components and DataBinding
+•
+Components
+•
+Creating Components
+
+Component Templates and Component Styles
+•
+Data Databinding
+•
+String Interpolation
+•
+Property Binding
+•
+One Way Binding
+•
+Two Way Binding
+•
+Event Binding
+•
+Passing Data between Components
+4
+Directives
+•
+Directives
+•
+Structural Directives and Attribute Directives
+•
+ngIf to Output Data Conditionally
+•
+ngIf with an Else Condition
+•
+Styling Elements ngStyle
+•
+CSS Classes ngClass
+•
+Outputting Lists with ngFor
+•
+Understanding ngSwitch
+4
+4
+Life Cycle Hooks & Pipes
+•
+Component Lifecycle
+•
+Lifecycle Hooks in Action
+•
+Using Built in Pipes
+•
+The PipeTransform Interface
+•
+Creating Custom Pipes
+4
+5
+Using Services & Dependency Injection
+•
+Understanding DI in Angular
+•
+Constructor based hierarchical Injector
+•
+Singleton and non-Singleton Objects
+•
+Using Service Classes
+•
+Various Decorators in DI
+•
+@Injector()
+•
+@Injectable()
+4
+5
+Forms Programming
+•
+Template Forms and Reactive Forms
+•
+FormBuilder, FormGroup, FormControl classes
+•
+Validating Forms
+•
+Creating Custom Validators
+•
+Asynchronous Validations
+•
+Submitting form data to the server
+4
+6
+RXJS and Http Programming
+•
+RXJS Introduction
+•
+Observables, Observers and Subjects
+•
+Consuming Web Services using HttpClientModule
+•
+Passing parameters using HTTP Headers
+•
+Error handling in RXJS
+4
+6
+Routing
+•
+Routing Introduction
+•
+Route Definition Object
+•
+Router Outlets
+•
+Passing Parameters to Routes
+•
+Life cycle of Router
+•
+Implementing Guards and Resolvers
